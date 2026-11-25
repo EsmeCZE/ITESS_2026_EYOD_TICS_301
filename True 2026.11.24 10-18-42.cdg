@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="True">
+  <ClassDiagramComponents>
+    <Interface name="IGraph" package="" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Methods>
+        <Method name="addVertex" returnType="void" visibility="package">
+          <Argument type="int" name="v"/>
+        </Method>
+        <Method name="addEdge" returnType="void" visibility="package">
+          <Argument type="int" name="v"/>
+          <Argument type="int" name="u"/>
+        </Method>
+        <Method name="getVertex" returnType="void" visibility="package">
+          <Argument type="int" name="v"/>
+        </Method>
+        <Method name="vertex" returnType="int" visibility="package"/>
+        <Method name="edgeSize" returnType="int" visibility="package"/>
+      </Methods>
+    </Interface>
+    <Class name="Edge" package="" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="v" type="int" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="True" package="" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields>
+        <Field name="numero" type="int" visibility="package"/>
+        <Field name="reader" type="FastReader" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="leerDatos" returnType="void" visibility="public"/>
+        <Method name="resuelve" returnType="void" visibility="public"/>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
